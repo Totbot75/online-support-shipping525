@@ -49,11 +49,7 @@ def makeWebhookResult(req):
         "source": "apiai-onlinestore-shipping"
     }
 
-
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.getenv('PORT', 5000))
 
-    if port == 5000:
-        app.debug = True
-
-    app.run(host='0.0.0.0', port=port)
+   app.run(debug=True, port=port, host='0.0.0.0')
