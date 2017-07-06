@@ -56,4 +56,4 @@ if __name__ == '__main__':
     if port == 30829:
         app.debug = True
 
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='onl-shop-sup525.herokuapp.com', port=port)
