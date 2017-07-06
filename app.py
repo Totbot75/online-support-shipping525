@@ -51,9 +51,9 @@ def makeWebhookResult(req):
     }
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 30829))
+    port = int(os.environ.get('PORT', 50000)
 
-    if port == 30829:
+    if port == 50000:
         app.debug = True
 
-    app.run(host='onl-shop-sup525.herokuapp.com', port=port)
+    app.run(host='0.0.0.0', port=port)
