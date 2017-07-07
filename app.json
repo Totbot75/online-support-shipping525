@@ -6,7 +6,7 @@
   "keywords": ["api.ai", "natural language"],
   "buildpacks": [
     {
-      "url": "https://github.com/stomita/heroku-buildpack-python"
+      "url": "https://github.com/heroku/heroku-buildpack-python"
     }
   ]
 }
